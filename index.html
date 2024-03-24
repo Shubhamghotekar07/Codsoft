@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio Using HTML & CSS</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-left-side">
-        <h1>
-          Adham <br />
-          Hoffman
-        </h1>
-        <h2>- UI / UX DESIGNER</h2>
-        <p>
-          Hey! I started my career in 2012. Since then, I’ve reached #1 on the
-          Play Store and won a Social Good Award. Now I’m a Digital Art Director
-          at Serbia creating websites and apps that are simple, beautiful and
-          easy- to-use.
-        </p>
-        <button>Behance</button>
-        <button>Dribble</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" disabled />
         <br />
+        <button id="ac" class="operator white">AC</button>
+        <button id="de" class="operator white">DE</button>
+        <button id="." class="operator white size">.</button>
+        <button id="/" class="operator white size">/</button>
         <br />
-        <button>Pinterest</button>
-        <button>Article</button> <br />
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="*" class="operator white size">*</button>
         <br />
-        <button>View work</button>
-        <button>instagram</button> <br />
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="-" class="operator white size">-</button>
         <br />
-        <button class="btn">Hire now</button>
-        <h3>Copyright © 2024 Adham Hoffman - UI/X Designer</h3>
-      </div>
-      <div class="header-right-side">
-        <img src="portfolio-images/adham-hoffman.jpg" alt="img" />
-      </div>
-    </header>
-  </body>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="+" class="operator white size">+</button>
+        <br />
+        <button id="00" class="color">00</button>
+        <button id="0">0</button>
+        <button id="=" class="equal operator Equalcolor">ENTER</button>
+    </div> 
+    <script src="./index.js"></script>
+</body>
 </html>
